@@ -2,12 +2,6 @@ import React, { useState,useEffect } from 'react'
 import './PokeCardStyle.css'
 import axios from 'axios';
 
-const typeColours = {
-  normal: '#A8A77A',
-  fire: '#EE8130',
-  water: '#6390F0',
-  electric: '#F7D02C'
-}
 
 export default function PokeCard({pokemon}) {
   const [isLoading, setLoading] = useState(true);
